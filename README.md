@@ -17,5 +17,14 @@ The folder `experiments` contains the commands to reproduce the results of the m
 If you find this code useful, please cite 
 
 ```
-Cavallo, A.; Grohnfeldt, C.; Russo, M.; Lovisotto, G.; Vassio, L.; GCNH: A Simple Method For Representation Learning On Heterophilous Graphs, IJCNN 2023
+@INPROCEEDINGS{Cava2306:GCNH,
+AUTHOR="Andrea Cavallo and Luca Vassio and Claas Grohnfeldt and Michele Russo and Giulio Lovisotto",
+TITLE="{GCNH:} A Simple Method for Representation Learning on Heterophilous Graphs",
+BOOKTITLE="2023 International Joint Conference on Neural Networks (IJCNN) (IJCNN 2023)",
+ADDRESS="Queensland, Australia",
+PAGES=8,
+DAYS="17",
+MONTH=jun,
+YEAR=2023,
+}
 ```
