@@ -12,13 +12,13 @@ GCNH extends GNNs' representation capabilities on heterophilous graphs by learni
 
 The folder `experiments` contains the commands to reproduce the results of the main table of the paper and to test GCNH on the synthetic dataset used in the paper.
 
-## Citation
-
-If you find this code useful, please cite
-
 ## Contributors
 
 - [Michele Russo](https://github.com/mik1904)
+
+## Citation
+
+If you find this code useful, please cite
 
 ```
 @INPROCEEDINGS{Cava2306:GCNH,
