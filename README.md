@@ -1,6 +1,6 @@
 # GCNH: A Simple Method For Representation Learning On Heterophilous Graphs
 
-This repository contains the implementation of GCNH, the model described in our work *GCNH: A Simple Method For Representation Learning On Heterophilous Graphs*, accepted at IJCNN 2023. 
+This repository contains the implementation of GCNH, the model described in our work *GCNH: A Simple Method For Representation Learning On Heterophilous Graphs*, accepted at IJCNN 2023 ([preprint](https://arxiv.org/abs/2304.10896)). 
 
 ## Description
 
