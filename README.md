@@ -14,6 +14,7 @@ The folder `experiments` contains the commands to reproduce the results of the m
 
 ## Contributors
 
+- [Andrea Cavallo](https://github.com/andrea-cavallo-98)
 - [Michele Russo](https://github.com/mik1904)
 
 ## Citation
