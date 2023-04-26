@@ -14,7 +14,11 @@ The folder `experiments` contains the commands to reproduce the results of the m
 
 ## Citation
 
-If you find this code useful, please cite 
+If you find this code useful, please cite
+
+## Contributors
+
+- [Michele Russo](https://github.com/mik1904)
 
 ```
 @INPROCEEDINGS{Cava2306:GCNH,
