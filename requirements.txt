@@ -5,5 +5,5 @@ pandas==1.4.3
 scikit_learn==1.1.1
 scipy==1.8.1
 torch==2.0.0
-torch_scatter==2.1.1+pt20cu117
+# torch_scatter==2.1.1+pt20cu117
 tqdm==4.64.0
