@@ -57,7 +57,9 @@ class GCNH_layer(Module):
         if not self.maxpool: # sum or mean
             hp = beta * z + (1-beta) * torch.matmul(adj, h)
         else:
-            hh = torch.zeros(adj.shape[0], self.nhid).cuda()
+            hh = torch.zeros(adj.shape[0], self.nhid)
+            if next(self.parameters()).is_cuda:
+                hh = hh.cuda()
             _ = scatter(h[row], col, dim=0, out=hh, reduce="max")
             hp = beta * z + (1 - beta) * hh
         
