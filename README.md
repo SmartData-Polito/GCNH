@@ -4,7 +4,7 @@ This repository contains the implementation of Graph Convolutional Network for H
 
 ## Description
 
-GCNH extends Graph Neural networks' representation capabilities on by learning two different functions to encode center node and neighborhood messages. These two encoding are merged into the final node embedding using a convex combination with a learned coefficient β. The layer propagation rule in GCNH works as follows: 
+GCNH extends Graph Neural Networks' representation capabilities on heterophilous graphs by learning two different functions to encode center node and neighborhood messages. These two encodings are merged into the final node embedding using a convex combination with a learned coefficient β. The layer propagation rule in GCNH works as follows: 
 
 $$h^l_u = (1-\beta)\bigoplus_{v \in \mathcal{N_u}}\left[ \sigma(h^{\ell-1}_v W_2) \right] + \beta\sigma(h^{\ell-1}_u W_1).$$
 
